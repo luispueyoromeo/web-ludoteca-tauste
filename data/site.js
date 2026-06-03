@@ -5,9 +5,9 @@ export const siteConfig = {
   description:
     "Un espacio cercano y familiar donde se organizan actividades de ocio educativo, tiempo libre y conciliación para niños y niñas de Tauste y alrededores.",
   contact: {
-    phone: "Teléfono pendiente",
-    email: "Email pendiente",
-    instagram: "Instagram pendiente",
+    phone: "650 044 395",
+    email: "5vsportlife@gmail.com",
+    instagram: "@laludotecadetauste",
     location: "Tauste, Zaragoza",
   },
 };
