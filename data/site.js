@@ -23,59 +23,60 @@ export const navLinks = [
 ];
 
 export const activities = [
-  {
-    title: "Colonias",
-    slug: "colonias",
-    icon: "☀️",
-    color: "orange",
-    short:
-      "Colonias en Navidad, Semana Santa y verano para disfrutar de las vacaciones con juegos, talleres y convivencia.",
-    description:
-      "Actividades desarrolladas en periodos vacacionales escolares, pensadas para ayudar a la conciliación familiar y ofrecer a los niños y niñas días llenos de ocio educativo, movimiento y creatividad.",
-    highlights: ["Navidad", "Semana Santa", "Verano", "Conciliación familiar"],
-    cta: "Inscripción",
-    href: "/colonias",
-  },
-  {
-    title: "Los Sábados",
-    slug: "sabados",
-    icon: "🎲",
-    color: "blue",
-    short:
-      "Una alternativa de ocio educativo todos los sábados durante el curso escolar, en horario de mañana y/o tarde.",
-    description:
-      "Un plan cercano para que los niños y niñas de la localidad compartan juegos, actividades cooperativas, talleres y propuestas de tiempo libre durante el curso escolar.",
-    highlights: ["Curso escolar", "Mañana y/o tarde", "Ocio educativo", "Juego compartido"],
-    cta: "Más información",
-    href: "/sabados",
-  },
-  {
-    title: "Fiestas de cumpleaños",
-    slug: "cumpleanos",
-    icon: "🎂",
-    color: "yellow",
-    short:
-      "Cumpleaños por las tardes con diferentes opciones de actividades y precios preparados para completar.",
-    description:
-      "Celebraciones pensadas para que cada cumple sea especial, con propuestas adaptables según la edad, el grupo y el tipo de actividad que busque la familia.",
-    highlights: ["Por las tardes", "Opciones editables", "Precios pendientes", "Celebración especial"],
-    cta: "Consultar opciones",
-    href: "/cumpleanos",
-  },
-  {
-    title: "Acampadas",
-    slug: "acampadas",
-    icon: "⛺",
-    color: "green",
-    short:
-      "Actividades especiales con mucha demanda que se anunciarán según próximas fechas disponibles.",
-    description:
-      "Propuestas especiales que podrán realizarse en distintos periodos del año, como Navidad o verano. Las nuevas fechas se irán publicando cuando estén confirmadas.",
-    highlights: ["Próximas fechas", "Navidad o verano", "Actividad especial", "Plazas limitadas"],
-    cta: "Próximas acampadas",
-    href: "/acampadas",
-  },
+{
+title: "Colonias",
+slug: "colonias",
+icon: "☀️",
+color: "orange",
+short:
+"Colonias en Navidad, Semana Santa y verano para disfrutar de las vacaciones con juegos, deporte, talleres y actividades de convivencia.",
+description:
+"Las colonias de La Ludoteca de Tauste se organizan durante los principales periodos vacacionales escolares: Navidad, Semana Santa y verano. Son una propuesta pensada para favorecer la conciliación familiar y, al mismo tiempo, ofrecer a los niños y niñas un espacio seguro, activo y divertido en el que compartir juegos, actividades deportivas, talleres creativos y dinámicas de grupo.",
+highlights: ["Navidad", "Semana Santa", "Verano", "Ocio activo"],
+cta: "Inscribirse",
+href: "/colonias",
+},
+{
+title: "Los Sábados",
+slug: "sabados",
+icon: "🎲",
+color: "blue",
+short:
+"Una alternativa de ocio educativo durante el curso escolar, con actividades los sábados en horario de mañana y/o tarde.",
+description:
+"Los Sábados es una actividad estable durante el curso escolar, dirigida a ofrecer a las familias una alternativa de ocio para los fines de semana. A través de juegos, dinámicas cooperativas, talleres, actividad física y propuestas recreativas, los niños y niñas disfrutan de un entorno cercano, educativo y de convivencia con otros participantes de la localidad.",
+highlights: ["Curso escolar", "Sábados", "Mañana y/o tarde", "Ocio educativo"],
+cta: "Solicitar información",
+href: "/sabados",
+},
+{
+title: "Fiestas de cumpleaños",
+slug: "cumpleanos",
+icon: "🎂",
+color: "yellow",
+short:
+"Cumpleaños por las tardes con diferentes opciones de actividades para celebrar un día especial en la Ludoteca.",
+description:
+"Las fiestas de cumpleaños de La Ludoteca de Tauste están pensadas para que los niños y niñas puedan celebrar su día de una forma divertida, organizada y adaptada a cada grupo. Se desarrollan habitualmente por las tardes y pueden incluir diferentes propuestas de juego, animación, talleres o actividades especiales. Próximamente se podrán consultar las opciones disponibles, horarios y precios.",
+highlights: ["Por las tardes", "Actividades a elegir", "Opciones personalizables", "Precios pendientes"],
+cta: "Consultar cumpleaños",
+href: "/cumpleanos",
+},
+{
+title: "Acampadas",
+slug: "acampadas",
+icon: "⛺",
+color: "green",
+short:
+"Actividades especiales con gran acogida, organizadas en momentos concretos del año según disponibilidad y programación.",
+description:
+"Las acampadas son una de las propuestas especiales de La Ludoteca de Tauste. Se plantean como experiencias diferentes, muy esperadas por los niños y niñas, que pueden organizarse en distintos momentos del año, como Navidad, verano u otros periodos concretos. Las fechas, plazas y condiciones se anunciarán cuando cada actividad esté confirmada.",
+highlights: ["Actividad especial", "Navidad o verano", "Próximas fechas", "Plazas limitadas"],
+cta: "Próximas acampadas",
+href: "/acampadas",
+},
 ];
+
 
 export const values = [
   { title: "Conciliación", icon: "🤝", text: "Apoyo a las familias en periodos lectivos y vacacionales." },
