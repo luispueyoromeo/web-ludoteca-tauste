@@ -19,7 +19,6 @@ export const navLinks = [
   { label: "Los Sábados", href: "/sabados" },
   { label: "Cumpleaños", href: "/cumpleanos" },
   { label: "Acampadas", href: "/acampadas" },
-  { label: "Inscripciones", href: "/inscripciones" },
   { label: "Contacto", href: "/contacto" },
 ];
 
